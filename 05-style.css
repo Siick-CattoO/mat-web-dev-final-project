@@ -1,0 +1,521 @@
+/* 
+HANDWRITTEN FONT
+font-family: 'Homemade Apple', cursive;
+
+ROUNDED TEXT FONT
+font-family: 'Montserrat Alternates', sans-serif;
+
+LITTLE CURVY FONT
+font-family: 'Paprika', cursive;
+
+NORMAL TEXT FONT
+font-family: 'Tenor Sans', sans-serif;
+ 
+CURVY HEADLINES
+font-family: 'Playball', cursive;
+
+*/
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: #202020;
+  color: white;
+
+  display: flex;
+  flex-flow: column wrap;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playball", cursive;
+  margin: 10px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 150px;
+  padding: 5px;
+}
+
+h2 {
+  border-radius: 100px;
+  text-shadow: 1px 5px 5px #202020;
+  font-size: 100px;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 50px;
+  margin: 0 0 50px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> HEADER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+header {
+  /* border: 2px solid hotpink; */
+  background: linear-gradient(#ff1a8c, #202020);
+  text-shadow: 1px 5px 5px hotpink;
+  margin: 0;
+  height: fit-content;
+  padding: 10px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> NAVIGATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> NAVIGATIONS BOXEN <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+nav div {
+  /* border: #00fff0 solid 2px; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ----------------------------- NAVIGATIONS BOXEN BORDER ----------------------- */
+
+.nav-box-1-border {
+  border: 10px solid #99ff99;
+}
+
+.nav-box-2-border {
+  border: 10px solid #ffcc66;
+}
+
+.nav-box-3-border {
+  border: 10px solid #ff99cc;
+}
+
+.nav-box-4-border {
+  border: 10px solid #3399ff;
+}
+
+.nav-box-5-border {
+  border: 10px solid #cc99ff;
+}
+
+.nav-box-6-border {
+  border: 10px solid #00fff0;
+}
+
+.nav-box-7-border {
+  border: 10px solid #fa8072;
+}
+
+.nav-box-8-border {
+  border: 10px solid #00b3a7;
+}
+
+/* ---------------------------------------- HOVER EFFECT --------------------------- */
+
+.nav-box-1-border:hover {
+  box-shadow: 0px 0px 20px 10px #c2ffc2;
+}
+
+.nav-box-2-border:hover {
+  box-shadow: 0px 0px 20px 10px #ffe1a4;
+}
+
+.nav-box-3-border:hover {
+  box-shadow: 0px 0px 20px 10px #fcb1d7;
+}
+
+.nav-box-4-border:hover {
+  box-shadow: 0px 0px 20px 10px #82c0ff;
+}
+
+.nav-box-5-border:hover {
+  box-shadow: 0px 0px 20px 10px #e0c1ff;
+}
+
+.nav-box-6-border:hover {
+  box-shadow: 0px 0px 20px 10px #91fff8;
+}
+
+.nav-box-7-border:hover {
+  box-shadow: 0px 0px 20px 10px #ffafa7;
+}
+
+.nav-box-8-border:hover {
+  box-shadow: 0px 0px 20px 10px #49fff3;
+}
+
+/* ------------------------------------- BANNER TOP ---------------------------------------------- */
+
+.banner-top {
+  height: 100px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PICTURES <<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.nav-pic img {
+  /* border: 5px solid #202020; */
+  width: 24.5%;
+  box-sizing: border-box;
+}
+
+.round-corner-br {
+  border-radius: 0 50% 0 50%;
+}
+
+.round-corner-tr {
+  border-radius: 50% 0 50% 0;
+}
+
+/* -------------------------------------- PICTURES IN BOXES ------------------------------- */
+
+/* <!-- ----------------------------------------------------- --> */
+/* <!-- ----------------------------------------------------- --> */
+/* <!-- ----------------------------------------------------- --> */
+
+.content-box-left {
+  /* border: 2px dotted red; */
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.content-box-right {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.sub {
+  /* border: 5px dotted green; */
+  width: 60% 20% 20%;
+}
+
+.big-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-pic img {
+  /* border: 2px dotted yellow; */
+  border-radius: 100%;
+
+  height: 600px;
+  margin: 10px 15px;
+  width: fit-content;
+}
+
+.small-pic {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-pic img {
+  height: 300px;
+  margin: 10px 5px;
+}
+
+/* <!-- ----------------------------------------------------- --> */
+/* <!-- ----------------------------------------------------- --> */
+/* <!-- ----------------------------------------------------- --> */
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> MAIN >><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+main div {
+  margin: 0 auto;
+}
+
+p {
+  /* border: 2px solid #00fff0; */
+  padding: 15px 50px 20px 20px;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.text-right {
+  /* border: 2px solid blue; */
+  margin: 0 0 0 40%;
+  height: fit-content;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CONTENT BOXEN <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+#green-headline {
+  background-color: #99ff99;
+}
+
+#gold-headline {
+  background-color: #ffcc66;
+}
+
+#pink-headline {
+  background-color: #ff99cc;
+}
+
+#blue-headline {
+  background-color: #3399ff;
+}
+
+#lilac-headline {
+  background-color: #cc99ff;
+}
+
+#turq-headline {
+  background-color: #00fff0;
+}
+
+#salmon-headline {
+  background-color: #fa8072;
+}
+
+#teal-headline {
+  background-color: #00b3a7;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RETURN TO TOP / BOTTOM <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.to-top,
+.to-bottom {
+  /* border: 2px solid yellowgreen; */
+  color: white;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  width: fit-content;
+  margin: 0 auto;
+  /* background-color: blue; */
+  cursor: pointer;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.to-top {
+  padding: 10px 33px;
+  border-radius: 50px 50px 0 0;
+}
+
+.to-bottom {
+  padding: 10px 30px;
+  border-radius: 0 0 50px 50px;
+}
+
+/* ---------------------------------COLORED TABS----------------------- */
+
+.green-bottom-tab {
+  background: linear-gradient(#99ff99, teal);
+}
+
+.gold-top-tab {
+  background: linear-gradient(hotpink, #ffcc66);
+}
+
+.gold-bottom-tab {
+  background: linear-gradient(#ffcc66, teal);
+}
+
+.pink-top-tab {
+  background: linear-gradient(hotpink, #ff99cc);
+}
+
+.pink-bottom-tab {
+  background: linear-gradient(#ff99cc, teal);
+}
+
+.blue-top-tab {
+  background: linear-gradient(hotpink, #3399ff);
+}
+
+.blue-bottom-tab {
+  background: linear-gradient(#3399ff, teal);
+}
+
+.lilac-top-tab {
+  background: linear-gradient(hotpink, #cc99ff);
+}
+
+.lilac-bottom-tab {
+  background: linear-gradient(#cc99ff, teal);
+}
+
+.turq-top-tab {
+  background: linear-gradient(hotpink, #00fff0);
+}
+
+.turq-bottom-tab {
+  background: linear-gradient(#00fff0, teal);
+}
+
+.salmon-top-tab {
+  background: linear-gradient(hotpink, #fa8072);
+}
+
+.salmon-bottom-tab {
+  background: linear-gradient(#fa8072, teal);
+}
+
+.teal-top-tab {
+  background: linear-gradient(hotpink, #00b3a7);
+}
+
+.teal-bottom-tab {
+  background: linear-gradient(#00b3a7, teal);
+
+}
+
+/* ------------------------------- COLORED TABS HOVER ----------------------------- */
+
+.to-top:hover {
+  box-shadow: -2px -5px 23px 0px #ff99cc;
+
+}
+
+.to-bottom:hover {
+  box-shadow: 0px 10px 15px -1px #00b3a7;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+footer {
+  background: linear-gradient(#202020, teal);
+}
+
+.contact-icons {
+  height: 100px;
+  padding: 50px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#bottom {
+  /* border: 2px solid pink; */
+  padding: 30px;
+  margin: 50px auto 0;
+  text-align: center;
+}
+
+#bottom a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 30px;
+}
+
+#bottom a:hover {
+  color: hotpink;
+}
+
+/* ------------------------------- CONTACT ICONS ----------------------------- */
+
+.contact-icons {
+  /* border: 2px solid green; */
+  list-style: none;
+  font-weight: bold;
+  margin: 10px;
+
+  border-radius: 20px;
+  /* display: flex; */
+}
+
+.contact-icons li a {
+  /* border: 2px solid yellow; */
+  border-radius: 100%;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 80px;
+  margin: 50 auto;
+
+
+
+  display: flex;
+  flex-flow: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#facebook a:hover {
+  background: linear-gradient(#3399ff, #0066cc);
+}
+
+#instagram a:hover {
+  background: linear-gradient(#cc99ff, #a64dff);
+}
+
+#linkedin a:hover {
+  background: linear-gradient(#ff99cc, #ff4da6);
+}
+
+#email a:hover {
+  background: linear-gradient(#ff9966, #ff661a);
+}
+
+#phone a:hover {
+  background: linear-gradient(#ffcc66, #ffb31a);
+}
+
+/* -----------------------------------IMPRESSUM------------------------------------- */
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+form {
+  margin: 30px auto 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+form label {
+  margin: 0 10px;
+}
+
+input {
+  margin: 20px 20px;
+}
+
+textarea {
+  margin: 20px;
+}
+
+.send-comment {
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: #202020;
+  color: white;
+  font-size: 20px;
+  background-color: #202020;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 10px;
+  margin: 0 300px;
+  cursor: pointer;
+}
+
+.send-comment:hover {
+  color: #fa8072;
+  background-color: #202020;
+}
+
+#copyright {
+  font-size: 13px;
+  padding: 40px 0 0 20px;
+  text-align: center;
+}
